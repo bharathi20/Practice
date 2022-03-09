@@ -1,0 +1,11 @@
+//HOOKS - USESTATE, USEEFFECT,
+//component - data manipulation - use state
+//component - rerender, reload - use effect
+// comp1 to comp 2 data transfer - props
+//parent - child
+//child - parent
+
+//http codes
+//http methods, time, size, url
+
+//dev tools -  inspect , element, console, network, source, application, components

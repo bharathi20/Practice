@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.todoApp{
+margin: 10px;
+}
+
+body{
+    background-image: linear-gradient(rgb(238, 150, 150),rgb(139, 126, 126));
+    background-repeat: no-repeat;
+    height:100vh;
+}
+
+.formDiv{
+    padding-left: 10px;  
+}
+.name{
+    font-size: 20px;
+    padding-left:10px;
+}
+
+
+.submitButton{
+    padding: 5px;
+    text-align: center;
+
+}
+
+#formId{
+    display: flex;
+    flex-direction: column;
+}
+.dataList{
+    margin-top: 10px;
+    display: grid;
+    gap:5px;
+    grid-template-columns: repeat(3 ,1fr);
+}
+
+.main{
+    border:2px solid black;
+    padding: 10px;
+    font-size: 20px;
+}
+.button{
+    font-size: 15px;
+    padding:5px;
+    width:100px;
+    text-align: center;
+}
+
+.date{
+    padding-left:10px;
+    margin-bottom:10px;
+    font-size:20px;
+}

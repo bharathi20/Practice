@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family:  sans-serif;
+    margin: 25px; 
+  }
+  
+  h1{
+    font-weight: 900;
+  }
+  .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .formContent{
+    display: flex;
+    margin:10px;
+    padding: 10px;
+
+  }
+  .content{
+    margin:10px;
+    border:1px solid black;   
+    width: 228px;
+    padding:5px;
+
+  }
+  .sendButton{
+    background-color: black;
+    color:white;
+    padding:10px;
+  }
